@@ -9,9 +9,8 @@ export default function AvatarImage() {
                 width={200} height={200}
                 className="rounded-full "
                 alt='Profile Image'
-                loading='lazy'
                 priority={true}
-                placeholder='blur'
+                blurDataURL='base64'
             />
         </div>
     )
