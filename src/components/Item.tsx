@@ -9,10 +9,10 @@ interface ItemProps {
 
 export default function Item(props: ItemProps) {
     return (
-        <Link href={props.href}>
+        <Link href={props.href} passHref>
             <li className={` 
             m-2 border-2
-            sm:py-20 sm:px-10 p-8
+            md:p-8 p-6
             border-gray-700
             bg-gray-100
             rounded-xl
@@ -22,10 +22,10 @@ export default function Item(props: ItemProps) {
             transform
             hover:scale-105
             transition-transform
-            shadow sm:w-1/3 w-full
+            shadow md:w-1/3 w-full
         `}>
                 <div className='flex items-center text-left'>
-                    <Image src={props.src}
+                    <Image src={props.src} alt=''
                         width={35} height={35}
                     />
                     <p className='ml-2 text-lg'>{props.value}</p>

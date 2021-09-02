@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 
 export default function Home() {
   return (
-    <Layout title='Título Principal'>
+    <Layout title='Olá, meu nome é Yuri'>
       <AvatarImage />
       <Content />
     </Layout>
