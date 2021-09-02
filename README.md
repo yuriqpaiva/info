@@ -18,4 +18,4 @@ npm run dev
 
 Este projeto tem a intenção de resumir algumas informações básicas sobre mim, com a intenção de ser simples e direto.
 
-<!-- ![Imagem-aplicacao1](./public/images/img-app1.png) -->
+![Imagem-aplicacao1](./public/images/img-app1.png)
