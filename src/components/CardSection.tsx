@@ -28,19 +28,19 @@ export default function CardSection() {
                     href='https://github.com/yuriqpaiva'
                 />
                 <Item
+                    value='Linkedin' 
+                    src='/images/linkedin.png'
+                    href='https://br.linkedin.com/'
+                />
+                <Item
                     value='E-mail'
                     src='/images/gmail.png'
-                    href='gmail.com'
+                    href='mailto:yuriqpaiva@gmail.com'
                 />
                 <Item
                     value='Instagram'
                     src='/images/instagram.png'
-                    href='instagram.com'
-                />
-                <Item
-                    value='Linkedin'
-                    src='/images/linkedin.png'
-                    href='linkedin.com'
+                    href='https://www.instagram.com/'
                 />
             </ul>
         </div>
