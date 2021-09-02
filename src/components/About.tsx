@@ -14,7 +14,7 @@ export default function About() {
                 text-gray-700 font-medium mx-11 sm:mx-0
                 sm:w-3/6 lg:w-2/6 text-left 
             `}>
-                Sou um programador Front-End focado em JavaScript.
+                Sou desenvolvedor Front-End focado em JavaScript.
                 Atualmente estou cursando Ciência da Computação.
                 Não me limito somente aos conhecimentos obtidos na faculdade, estou sempre buscando me aprimorar na área de tecnologia.
             </p>
