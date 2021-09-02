@@ -7,7 +7,7 @@ export default function Layout(props: LayoutProps) {
     return (
         <div className={`
             flex flex-col justify-center
-            items-center min-h-screen bg-gray-50
+            items-center min-h-screen
             animate-fade-in-down 
         `}>
             <h1 className={`
