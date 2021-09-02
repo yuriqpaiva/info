@@ -10,6 +10,8 @@ export default function AvatarImage() {
                 className="rounded-full "
                 alt='Profile Image'
                 loading='lazy'
+                priority={true}
+                placeholder='blur'
             />
         </div>
     )
