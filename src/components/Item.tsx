@@ -12,7 +12,7 @@ export default function Item(props: ItemProps) {
         <Link href={props.href} passHref>
             <li className={` 
             m-2 border-2
-            md:p-8 p-6
+            md:p-7 p-6
             border-gray-700
             bg-gray-100
             rounded-xl
@@ -30,7 +30,6 @@ export default function Item(props: ItemProps) {
                     />
                     <p className='ml-2 text-lg'>{props.value}</p>
                 </div>
-
             </li>
         </Link>
     )
