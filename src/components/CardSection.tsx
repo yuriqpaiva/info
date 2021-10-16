@@ -30,7 +30,7 @@ export default function CardSection() {
                 <Item
                     value='Linkedin' 
                     src='/images/linkedin.png'
-                    href='https://br.linkedin.com/'
+                    href='https://www.linkedin.com/in/yuri-queiroz-paiva-a4b7111b3/'
                 />
                 <Item
                     value='E-mail'
