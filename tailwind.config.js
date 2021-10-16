@@ -17,9 +17,14 @@ module.exports = {
       },
       animation: {
         'fade-in-down': 'fade-in-down 2.0s ease-out'
+      },
+      width: {
+        md: '30rem',
+        lg: '40rem'
       }
     },
   },
+  
   variants: {
     extend: {},
   },

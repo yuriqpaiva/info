@@ -5,7 +5,7 @@ export default function CardSection() {
     return (
         <div className={`
             flex flex-col 
-            xl:mx-40 md:mx-0 sm:mx-20
+            
         `}>
             <div className={`
                 text-center 
@@ -19,9 +19,10 @@ export default function CardSection() {
             </div>
 
             <ul className={`
-                        flex lg:px-20 
-                        mt-1 lg:mx-20 mb-5 md:mx-0 mx-5
-                        flex-wrap justify-center items-center`}>
+                        mt-2
+                        gap-10
+                        flex justify-center
+                         items-center`}>
                 <Item
                     value='GitHub'
                     src='/images/github.png'
@@ -36,11 +37,6 @@ export default function CardSection() {
                     value='E-mail'
                     src='/images/gmail.png'
                     href='mailto:yuriqpaiva@gmail.com'
-                />
-                <Item
-                    value='Instagram'
-                    src='/images/instagram.png'
-                    href='https://www.instagram.com/'
                 />
             </ul>
         </div>

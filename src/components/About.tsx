@@ -11,14 +11,14 @@ export default function About() {
             </h2>
             <Line />
             <p className={`
-                text-gray-700 font-medium mx-11 sm:mx-0
-                sm:w-3/6 lg:w-2/6 text-left 
+                text-gray-700 font-medium
+                text-left mt-2
             `}>
                 Sou desenvolvedor <strong>Front-End</strong> focado em <strong>JavaScript</strong>.
                 Atualmente estou cursando Ciência da Computação.
                 Não me limito somente aos conhecimentos obtidos na faculdade, estou sempre buscando me aprimorar na área de tecnologia.
                 <br/>
-                <div className='mt-2'>
+                <div className='mt-3'>
                     <strong>Possuo experiência com:</strong> JavaScript, TypeScript, Python, C, Java e Frameworks como Next e Vue.
                     Além disso, possuo conhecimento básico sobre Banco de Dados e MySQL.
                 </div>
